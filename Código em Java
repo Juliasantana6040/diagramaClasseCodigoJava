@@ -1,0 +1,52 @@
+// import java.util.list
+// import org.junit.jupiter.api.Test;
+
+// Classe Funcionário
+public class funcionario { 
+
+    private String nome;
+    private String cpf;
+    private String email;
+
+    // Getters and setters
+    // ...
+
+    public String verificarNome() {
+        return nome;
+    }
+
+    public String verificarCPF() {
+        return cpf;
+    }
+
+    public String verificarEmail() {
+        return email;
+    }
+}
+
+// Classe Produto
+public class produto {
+
+    private String nome;
+    private String codigo;
+    private double preco;
+    private int quantidadeEstoque;
+
+    // Getters and setters
+    // ...
+
+    public void adicionarEstoque(int quantidade) {
+        quantidadeEstoque += quantidade;
+    }
+
+    public void removerEstoque(int quantidade) {
+        quantidadeEstoque -= quantidade;
+    }
+
+    public int verificarEstoque() {
+        return quantidadeEstoque;
+    }
+
+  }
+
+}
